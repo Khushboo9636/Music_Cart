@@ -1,0 +1,1513 @@
+.topContent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+  width: 100vw;
+  padding: 0 0 75px;
+  box-sizing: border-box;
+  gap: 61px;
+  text-align: left;
+  font-size: 44.1px;
+  color:#2e0052;
+  font-family: var(--font-roboto);
+}
+.imgIcon{
+  height: 63px;
+  width: 63px;
+  position: relative;
+  object-fit: cover;
+}
+.musicart {
+  position: relative;
+  font-weight: 600;
+}
+.musicartWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding:25px 10px 0 0;
+}
+
+.topHome{
+flex-direction: column;
+padding: 22px 0 0;
+font-size: 26.4px;
+color: #000;
+width: 100%;
+}
+.topHome{
+  flex-direction: column;
+  padding: 22px 0 0;
+  font-size: 26.4px;
+  color: #000;
+  width: 100%;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    min-width: 72px;
+    color: #000;
+  }
+
+.home {
+  position: relative;
+  display: inline-block;
+  min-width: 72px;
+  color: #000;
+}
+.rightContent{
+  padding: 22px 0 0;
+  display: flex;
+  justify-content: end;
+  margin-bottom: 56px;
+  display: flex;
+  flex-flow: row;
+  position: relative;
+  align-items: center;
+  width: 100%;
+  text-decoration: none;
+  
+
+}
+.rightContent a{
+  text-decoration: none;
+  color: white;
+}
+.cartButton{
+  background: green;
+  border-radius: 82px;
+  align-items: center;
+  text-align: center;
+  padding-right: 3px;
+  font-size: 15px;
+  justify-content: center;
+  display: flex;
+  flex-flow: row;
+  
+}
+
+.tag1,
+.imagePlaceholder {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.tag1 {
+  flex-direction: row;
+  gap:7px;
+  min-width: 161px;
+}
+
+.topLeftSide,
+.inStockMessage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.topLeftSide{
+  align-self: stretch;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  gap: 28px;
+}
+.BackBtnContainer{
+  flex-direction: row;
+  padding: 0 9px;
+}
+.backBtn,
+.totalMRP,
+.BackBtnContainer{
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+}
+.backBtn:hover {
+  background-color: #613385;
+  cursor: pointer;
+}
+.frameChild {
+  height: 59px;
+  width: 281px;
+  position: relative;
+  border-radius: 14px;
+  background-color: #2e0052;
+  display: none;
+}
+.backToProducts {
+  position: relative;
+  font-size: 28.1px;
+  font-weight: 500;
+  font-family: var(--font-roboto);
+  color: var(--color-white);
+  text-align: left;
+  z-index: 1;
+}
+.backBtn {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 34px;
+  background-color: #2e0052;
+  border-radius: 14px;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.topLeftContent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 100%;
+}
+
+.topHeader {
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  padding-top: 20px;
+  gap: 20px;
+  color: #2e0052;
+}
+.image4Icon {
+    height: 63px;
+    width: 63px;
+    position: relative;
+    object-fit: cover;
+  }
+  .musicart {
+    position: relative;
+    font-weight: 600;
+  }
+  .image4Parent,
+  .musicartWrapper {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .musicartWrapper {
+    flex-direction: column;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .image4Parent {
+    flex-direction: row;
+    gap: 8px;
+    min-width: 161px;
+  }
+  .homeCheckout {
+    position: relative;
+  }
+  .frameDiv,
+  .homeCheckoutWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .homeCheckoutWrapper {
+    flex-direction: column;
+    padding: var(--padding-3xl) 0 0;
+    font-size: var(--font-size-7xl-4);
+    color: var(--color-black);
+  }
+  .frameDiv {
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 28px;
+  }
+  .frameChild {
+    height: 59px;
+    width: 281px;
+    position: relative;
+    border-radius: var(--br-sm);
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+  .backToCart {
+    position: relative;
+    font-size: 28.1px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: left;
+    z-index: 1;
+  }
+  .rectangleParent {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-smi) var(--padding-45xl) var(--padding-smi) 65px;
+    background-color: var(--color-midnightblue);
+    border-radius: var(--br-sm);
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  .rectangleParent:hover {
+    background-color: #613385;
+  }
+  .frameContainer,
+  .frameWrapper,
+  .rectangleParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameWrapper {
+    flex-direction: row;
+    padding: 0 9px;
+  }
+  .frameContainer {
+    width: 475px;
+    flex-direction: column;
+    gap: 69px;
+    max-width: 100%;
+  }
+  .checkout {
+    position: relative;
+    text-decoration: underline;
+    font-weight: 500;
+  }
+  .checkoutWrapper,
+  .frameGroup {
+    display: flex;
+    align-items: flex-start;
+  }
+  .checkoutWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    font-size: 39.8px;
+    color: var(--color-black);
+  }
+  .frameGroup {
+    width: 854px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 73.59999999999991px;
+    max-width: 100%;
+    color: var(--color-midnightblue);
+  }
+  .deliveryAddress1 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-28xl);
+  }
+  .akashPatel,
+  .deliveryAddress {
+    position: relative;
+    display: inline-block;
+  }
+  .deliveryAddress {
+    width: 316px;
+    font-weight: 500;
+  }
+  .akashPatel {
+    margin: 0;
+    flex: 1;
+    font-size: inherit;
+    line-height: 42.92px;
+    font-weight: 400;
+    font-family: inherit;
+    max-width: 100%;
+  }
+  .akashPatelWrapper {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-2xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frameInner,
+  .frameItem {
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+  }
+  .frameItem {
+    border: 0;
+    outline: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    bottom: 0;
+    left: -3px;
+  }
+  .frameInner {
+    height: 110px;
+    width: 412px;
+    position: relative;
+    border: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .kkHhNagar,
+  .p,
+  .uttarPradesh226025 {
+    margin: 0;
+  }
+  .kkHhNagarContainer {
+    width: 378px;
+    position: relative;
+    line-height: 28.9px;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .rectangleContainer,
+  .rectangleGroup {
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .rectangleContainer {
+    flex: 1;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-start;
+    padding: var(--padding-2xs) var(--padding-2xs) var(--padding-sm);
+    max-width: 100%;
+    z-index: 1;
+  }
+  .rectangleGroup {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-5xl);
+  }
+  .deliveryAddressParent,
+  .frameParent3,
+  .rectangleGroup {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent3 {
+    width: 412px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 14px;
+    min-width: 412px;
+    font-size: 29px;
+    color: var(--color-gray-200);
+  }
+  .deliveryAddressParent {
+    width: 997px;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 0 10.900000000000093px;
+    box-sizing: border-box;
+    gap: var(--gap-xl);
+  }
+  .lineDiv {
+    align-self: stretch;
+    height: 2.9px;
+    position: relative;
+    border-top: 2.9px solid var(--color-gainsboro);
+    box-sizing: border-box;
+  }
+  .paymentMethod1 {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-28xl);
+  }
+  .paymentMethod {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+  }
+  .paymentMethodWrapper {
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 3.099999999999909px 0 0;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .rectangleDiv {
+    align-self: stretch;
+    width: 412px;
+    position: relative;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-100);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .modeOfPayment {
+    height: 58px;
+    flex: 1;
+    position: relative;
+    line-height: 42.92px;
+    display: flex;
+    align-items: center;
+    min-width: 123px;
+    z-index: 1;
+  }
+  .mingcutedownLineIcon {
+    width: 28.1px;
+    height: 24px;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    z-index: 1;
+  }
+  .mingcutedownLineWrapper,
+  .rectangleParent1 {
+    box-sizing: border-box;
+    justify-content: flex-start;
+  }
+  .mingcutedownLineWrapper {
+    height: 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 17px 0 0;
+  }
+  .rectangleParent1 {
+    width: 412px;
+    border-radius: var(--br-8xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gray-100);
+    flex-direction: row;
+    padding: 0 var(--padding-smi) 0 var(--padding-lgi);
+    gap: 114.9px;
+    font-size: 20px;
+    color: var(--color-gray-200);
+  }
+  .frameParent5,
+  .lineParent,
+  .rectangleParent1 {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent5 {
+    width: 994px;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+  }
+  .lineParent {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 23.09999999999991px;
+  }
+  .frameChild1 {
+    align-self: stretch;
+    height: 2.9px;
+    position: relative;
+    border-top: 2.9px solid var(--color-gainsboro);
+    box-sizing: border-box;
+  }
+  .frameParent4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 26px;
+    max-width: 100%;
+  }
+  .reviewItemsAndDelivery {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-28xl);
+  }
+  .reviewItemsAndContainer {
+    align-self: stretch;
+    position: relative;
+    font-weight: 500;
+  }
+  .continueButton {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-10xs) 0 0;
+    box-sizing: border-box;
+    min-width: 302px;
+    max-width: 100%;
+  }
+  .frameChild2 {
+    align-self: stretch;
+    width: 112.6px;
+    position: relative;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+  .image23Icon {
+    height: 108.9px;
+    width: 110.9px;
+    position: relative;
+    border-radius: 6.12px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .groupDiv,
+  .subtotal {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .groupDiv {
+    align-self: stretch;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    padding: 1.099999999999909px 0.8000000000000114px 0.900000000000091px;
+  }
+  .subtotal {
+    flex: 1;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .frameChild3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .image23Icon1,
+  .image24Icon {
+    position: absolute;
+    object-fit: cover;
+  }
+  .image23Icon1 {
+    top: 1.1px;
+    left: 0.8px;
+    border-radius: 6.12px;
+    width: 110.9px;
+    height: 108.9px;
+    z-index: 1;
+  }
+  .image24Icon {
+    width: calc(100% - 2.6px);
+    top: 2px;
+    right: 1.6px;
+    left: 1px;
+    border-radius: var(--br-7xs);
+    max-width: 100%;
+    overflow: hidden;
+    height: 108px;
+  }
+  .rectangleParent2 {
+    align-self: stretch;
+    height: 110.9px;
+    position: relative;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+  }
+  .orderItems {
+    margin-left: -145px;
+    align-self: stretch;
+    width: 113.6px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 29.09999999999991px;
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+  }
+  .frameChild4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .image13Icon,
+  .image23Icon2 {
+    position: absolute;
+    border-radius: var(--br-7xs);
+    object-fit: cover;
+  }
+  .image23Icon2 {
+    top: 1.1px;
+    left: 0.8px;
+    width: 110.9px;
+    height: 108.9px;
+    z-index: 1;
+  }
+  .image13Icon {
+    width: calc(100% - 2.6px);
+    top: 2px;
+    right: 1.6px;
+    left: 1px;
+    max-width: 100%;
+    overflow: hidden;
+    height: 108px;
+    z-index: 2;
+  }
+  .rectangleParent3 {
+    height: 110.9px;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+  }
+  .orderItemsInner {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .frameChild5 {
+    align-self: stretch;
+    width: 112.6px;
+    position: relative;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+  .image23Icon3 {
+    height: 108.9px;
+    width: 110.9px;
+    position: relative;
+    border-radius: 6.12px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .rectangleParent4 {
+    flex: 1;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    flex-direction: row;
+    padding: 1.099999999999909px 0.7999999999999972px 0.900000000000091px;
+    z-index: 3;
+  }
+  .orderItems1,
+  .orderItemsParent,
+  .rectangleParent4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .orderItems1 {
+    align-self: stretch;
+    width: 113.6px;
+    flex-direction: column;
+    gap: 29.09999999999991px;
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+  }
+  .orderItemsParent {
+    height: 250px;
+    width: 257.6px;
+    flex-direction: row;
+    padding: 0 2.8421709430404014e-14px 0 144px;
+    box-sizing: border-box;
+    gap: 31.40000000000001px;
+    min-width: 257.6px;
+    z-index: 2;
+  }
+  .frameChild6 {
+    align-self: stretch;
+    width: 112.6px;
+    position: relative;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+  .image23Icon4 {
+    height: 108.9px;
+    width: 110.9px;
+    position: relative;
+    border-radius: 6.12px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .paymentMethodsInner,
+  .rectangleParent5 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangleParent5 {
+    align-self: stretch;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    padding: 1.099999999999909px 0.7999999999999972px 0.900000000000091px;
+  }
+  .paymentMethodsInner {
+    flex: 1;
+    padding: 0 0 0 var(--padding-12xs);
+  }
+  .frameChild7 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+  .image23Icon5,
+  .image25Icon {
+    position: absolute;
+    object-fit: cover;
+  }
+  .image23Icon5 {
+    top: 1.1px;
+    left: 0.8px;
+    border-radius: 6.12px;
+    width: 110.9px;
+    height: 108.9px;
+    z-index: 1;
+  }
+  .image25Icon {
+    width: calc(100% - 2.6px);
+    top: 1px;
+    right: 1.6px;
+    left: 1px;
+    border-radius: var(--br-7xs);
+    max-width: 100%;
+    overflow: hidden;
+    height: 108px;
+    z-index: 2;
+  }
+  .rectangleParent6 {
+    align-self: stretch;
+    height: 110.9px;
+    position: relative;
+    border-radius: var(--br-4xs-5);
+    background-color: var(--color-midnightblue);
+  }
+  .colorPicker,
+  .paymentMethods {
+    display: flex;
+    justify-content: flex-start;
+  }
+  .paymentMethods {
+    height: 250.9px;
+    width: 113.6px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 29.09999999999991px;
+    min-width: 113.6px;
+  }
+  .colorPicker {
+    flex-direction: row;
+    align-items: flex-end;
+    gap: 44.39999999999998px;
+    max-width: 100%;
+  }
+  .sonyWhCh720n {
+    flex: 1;
+    position: relative;
+    line-height: 39px;
+    font-weight: 600;
+  }
+  .brandName {
+    width: 259px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    font-size: 29.9px;
+  }
+  .clourBlack {
+    position: relative;
+    line-height: 36px;
+  }
+  .blackColor {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    color: var(--color-gray-200);
+  }
+  .estimatedDelivery,
+  .mondayFree {
+    margin: 0;
+  }
+  .estimatedDeliveryContainer {
+    align-self: stretch;
+    height: 70px;
+    position: relative;
+    line-height: 33.1px;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+  .productImage {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 9px;
+  }
+  .productLogo {
+    width: 425px;
+    flex-direction: column;
+    gap: var(--gap-25xl);
+    min-width: 425px;
+    font-size: var(--font-size-7xl-8);
+    color: var(--color-black);
+  }
+  .continueButtonParent,
+  .frameParent2,
+  .productLogo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .continueButtonParent {
+    width: 1006px;
+    flex-direction: row;
+    gap: 116px;
+  }
+  .frameParent2 {
+    flex: 1;
+    flex-direction: column;
+    gap: 34.09999999999991px;
+  }
+  .frameChild8,
+  .frameChild9 {
+    position: relative;
+    display: none;
+    max-width: 100%;
+  }
+  .frameChild8 {
+    width: 502px;
+    height: 494px;
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    border: 4px solid var(--color-gainsboro);
+    box-sizing: border-box;
+  }
+  .frameChild9 {
+    height: 70px;
+    width: 454.4px;
+    border-radius: 13.33px;
+    background-color: var(--color-gold);
+  }
+  .placeYourOrder {
+    width: 225px;
+    position: relative;
+    font-size: 31.1px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+    z-index: 1;
+  }
+  .groupButton {
+    cursor: pointer;
+    border: 0;
+    padding: 16.699999999999818px var(--padding-xl) 17.300000000000182px;
+    background-color: var(--color-gold);
+    width: 454.4px;
+    border-radius: 13.33px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .groupButton:hover,
+  .rectangleParent9:hover {
+    background-color: var(--color-goldenrod);
+  }
+  .byPlacingYour,
+  .noticeAndConditions {
+    margin: 0;
+  }
+  .byPlacingYourContainer {
+    height: 52px;
+    width: 406px;
+    position: relative;
+    line-height: 26px;
+    display: inline-block;
+    z-index: 1;
+  }
+  .agreementCheckbox {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 var(--padding-11xl) 0 33px;
+  }
+  .totalSummaryLabelChild {
+    align-self: stretch;
+    height: 2.9px;
+    position: relative;
+    border-top: 2.9px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .totalSummaryLabel {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 7px;
+    gap: 17px;
+    font-size: 17.8px;
+  }
+  .orderSummary {
+    width: 222px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+  }
+  .orderCompleteLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-lgi) 5.900000000000091px;
+  }
+  .delivery,
+  .items {
+    position: relative;
+    line-height: 34px;
+    display: inline-block;
+    min-width: 81px;
+    z-index: 1;
+  }
+  .delivery {
+    min-width: 107px;
+  }
+  .itemsParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  .div1,
+  .div2 {
+    position: relative;
+    line-height: 34px;
+    display: inline-block;
+    min-width: 112px;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .div2 {
+    min-width: 82px;
+  }
+  .homepageHeader,
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  .homepageHeader {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .priceLabel,
+  .thankYouMessage {
+    align-self: stretch;
+    box-sizing: border-box;
+  }
+  .thankYouMessage {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-4xl) 6.900000000000091px var(--padding-lgi);
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-7xl-8);
+    color: var(--color-gray-200);
+  }
+  .priceLabel {
+    height: 2.9px;
+    position: relative;
+    border-top: 2.9px solid var(--color-gainsboro);
+    z-index: 1;
+  }
+  .div3,
+  .orderTotal {
+    position: relative;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .div3 {
+    line-height: 34px;
+    white-space: nowrap;
+  }
+  .netbankingIcon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+    text-align: left;
+  }
+  .paymentOptionIcon {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: var(--gap-xl);
+  }
+  .paymentArea,
+  .rectangleParent7,
+  .totalAmountLabel {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .totalAmountLabel {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 var(--padding-4xl) 0 var(--padding-lgi);
+    box-sizing: border-box;
+    color: var(--color-firebrick);
+  }
+  .paymentArea,
+  .rectangleParent7 {
+    flex-direction: column;
+  }
+  .paymentArea {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 18.09999999999991px;
+  }
+  .rectangleParent7 {
+    width: 502px;
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    border: 4px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    align-items: flex-end;
+    padding: 21px var(--padding-sm) var(--padding-45xl) var(--padding-2xs);
+    gap: 23px;
+    min-width: 502px;
+    text-align: center;
+    font-size: var(--font-size-12xl-6);
+    color: var(--color-black);
+  }
+  .frameParent1,
+  .placeOrderButton {
+    align-self: stretch;
+    box-sizing: border-box;
+  }
+  .frameParent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 11.599999999999907px;
+    gap: 40px;
+    max-width: 100%;
+    font-size: var(--font-size-16xl-5);
+  }
+  .placeOrderButton {
+    height: 2.9px;
+    position: relative;
+    border-top: 2.9px solid var(--color-gainsboro);
+  }
+  .frameChild10,
+  .frameChild11 {
+    position: relative;
+    display: none;
+  }
+  .frameChild10 {
+    height: 91px;
+    width: 1047px;
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    border: 4px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frameChild11 {
+    height: 52px;
+    width: 233px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-gold);
+  }
+  .placeYourOrder1 {
+    position: relative;
+    font-size: 24.8px;
+    line-height: 29.6px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 1;
+  }
+  .rectangleParent9 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-2xs) var(--padding-7xl) 12px;
+    background-color: var(--color-gold);
+    border-radius: var(--br-5xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .orderTotal1 {
+    margin: 0;
+    font-weight: 600;
+  }
+  .byPlacingYour1 {
+    margin: 0;
+    font-size: 19.6px;
+    color: var(--color-black);
+  }
+  .orderTotalContainer {
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .rectangleParent8 {
+    border-radius: var(--br-base);
+    background-color: var(--color-white);
+    border: 4px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xl) 27px var(--padding-lgi) var(--padding-11xl);
+    gap: var(--gap-25xl);
+    max-width: 100%;
+  }
+  .placeOrderButtonParent {
+    width: 1047px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 39.09999999999991px;
+    font-size: var(--font-size-7xl);
+  }
+  .frameParent,
+  .inner,
+  .placeOrderButtonParent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameParent {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 75.40000000000009px;
+    text-align: left;
+    font-size: 44.1px;
+    color: var(--color-firebrick);
+    font-family: var(--font-roboto);
+  }
+  .inner {
+    width: 1677px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 44px 139px;
+    box-sizing: border-box;
+  }
+  .frameChild12 {
+    height: 87px;
+    width: 1728px;
+    position: relative;
+    background-color: var(--color-midnightblue);
+    display: none;
+    max-width: 100%;
+  }
+  .musicartAll {
+    position: relative;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .groupFooter {
+    align-self: stretch;
+    background-color: var(--color-midnightblue);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-9xl) var(--padding-xl) var(--padding-9xl) 32px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-7xl-4);
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+  }
+  .div {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 42px;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1350px) {
+    .rectangleParent7 {
+      flex: 1;
+    }
+    .frameParent1 {
+      flex-wrap: wrap;
+    }
+    .inner {
+      padding-left: var(--padding-3xl);
+      padding-right: var(--padding-3xl);
+      padding-bottom: 90px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1150px) {
+    .frameGroup {
+      gap: 37px 73.6px;
+    }
+    .productLogo {
+      flex: 1;
+    }
+    .continueButtonParent {
+      flex-wrap: wrap;
+      gap: 116px 58px;
+    }
+    .frameParent2 {
+      min-width: 100%;
+    }
+    .rectangleParent8 {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .musicart {
+      font-size: 35px;
+    }
+    .frameContainer {
+      gap: 34px 69px;
+    }
+    .checkout {
+      font-size: 32px;
+    }
+    .deliveryAddress {
+      font-size: var(--font-size-9xl);
+    }
+    .frameParent3 {
+      flex: 1;
+      min-width: 100%;
+    }
+    .deliveryAddressParent {
+      flex-wrap: wrap;
+    }
+    .paymentMethod {
+      font-size: var(--font-size-9xl);
+    }
+    .frameParent5 {
+      flex-wrap: wrap;
+    }
+    .reviewItemsAndContainer {
+      font-size: var(--font-size-9xl);
+    }
+    .productLogo {
+      min-width: 100%;
+    }
+    .continueButtonParent {
+      gap: 116px 29px;
+    }
+    .frameParent2 {
+      gap: 17px 34.1px;
+    }
+    .div3,
+    .orderSummary,
+    .orderTotal {
+      font-size: var(--font-size-6xl);
+    }
+    .div3 {
+      line-height: 26px;
+    }
+    .rectangleParent7 {
+      padding-top: var(--padding-xl);
+      padding-bottom: 42px;
+      box-sizing: border-box;
+      min-width: 100%;
+    }
+    .frameParent1 {
+      gap: 40px 20px;
+    }
+    .rectangleParent8 {
+      gap: 44px 22px;
+    }
+    .placeOrderButtonParent {
+      gap: 20px 39.1px;
+    }
+    .frameParent {
+      gap: 38px 75.4px;
+    }
+    .inner {
+      padding-bottom: 58px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .musicart {
+      font-size: var(--font-size-7xl);
+    }
+    .homeCheckout {
+      font-size: var(--font-size-2xl);
+    }
+    .rectangleParent {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .checkout {
+      font-size: var(--font-size-5xl);
+    }
+    .frameGroup {
+      gap: 18px 73.6px;
+    }
+    .deliveryAddress {
+      font-size: var(--font-size-2xl);
+    }
+    .akashPatel {
+      font-size: 23px;
+      line-height: 34px;
+    }
+    .kkHhNagarContainer {
+      font-size: var(--font-size-lgi);
+      line-height: 23px;
+    }
+    .paymentMethod {
+      font-size: var(--font-size-2xl);
+    }
+    .modeOfPayment {
+      font-size: 16px;
+      line-height: 34px;
+    }
+    .rectangleParent1 {
+      flex-wrap: wrap;
+      gap: 114.9px 57px;
+    }
+    .reviewItemsAndContainer {
+      font-size: var(--font-size-2xl);
+    }
+    .orderItemsParent {
+      flex: 1;
+      gap: 31.4px 16px;
+      padding-left: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .paymentMethods {
+      flex: 1;
+    }
+    .colorPicker {
+      flex-wrap: wrap;
+      gap: 44.4px 22px;
+    }
+    .sonyWhCh720n {
+      font-size: var(--font-size-5xl);
+      line-height: 30px;
+    }
+    .clourBlack,
+    .estimatedDeliveryContainer {
+      font-size: var(--font-size-2xl);
+      line-height: 26px;
+    }
+    .productLogo {
+      gap: 22px 44px;
+    }
+    .orderSummary {
+      font-size: var(--font-size-lgi);
+    }
+    .delivery,
+    .div1,
+    .div2,
+    .items {
+      font-size: var(--font-size-2xl);
+      line-height: 26px;
+    }
+    .homepageHeader {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .div3,
+    .orderTotal {
+      font-size: var(--font-size-lgi);
+    }
+    .div3 {
+      line-height: 20px;
+    }
+    .paymentOptionIcon {
+      flex-wrap: wrap;
+    }
+    .orderTotalContainer {
+      font-size: var(--font-size-2xl);
+    }
+    .frameParent {
+      gap: 19px 75.4px;
+    }
+    .inner {
+      padding-bottom: 38px;
+      box-sizing: border-box;
+    }
+    .musicartAll {
+      font-size: var(--font-size-2xl);
+    }
+    .div {
+      gap: 21px 42px;
+    }
+  }
+  
+  
+  
+  
+  

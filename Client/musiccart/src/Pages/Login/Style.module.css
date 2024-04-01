@@ -1,0 +1,70 @@
+    .signInFormInner {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .footerChild {
+    height: 87px;
+    width: 100vw;
+    position: absolute;
+    margin: 0 !important;
+    right: -1px;
+    bottom: -12px;
+    background-color:#2e0052;
+  }
+  .musicartAll {
+    width: 340px;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .footer,
+  .signInForm {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+  }
+  .footer{
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 28px 20px 16px 33px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 26.4px;
+    color:#fff;
+    font-family: var(--font-roboto);
+  }
+  .signInForm {
+    width: 100%;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 65px 0 0;
+    gap: 91px;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 900px) {
+    .signInForm {
+      gap: 45px 91px;
+    }
+  }
+ 
+  @media screen and (max-width: 450px) {
+    .musicartAll {
+      font-size: 21px;
+    }
+   
+  }
+  
+  

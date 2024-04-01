@@ -1,0 +1,123 @@
+.image4Icon {
+    height: 63px;
+    width: 63px;
+    position: relative;
+    object-fit: cover;
+  }
+  .musicart {
+    position: relative;
+    font-weight: 600;
+  }
+  .imageContainer,
+  .title {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .title {
+    flex-direction: column;
+    padding: 6px 0 0;
+  }
+  .imageContainer {
+    height: 63px;
+    flex-direction: row;
+    gap: 8px;
+  }
+  .imageContainerParent,
+  .inner {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .imageContainerParent {
+    width: 1271px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 68px;
+  }
+  .inner {
+    width: 1461px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 44.1px;
+    color: #2e0052;
+    font-family: var(--font-roboto);
+  }
+  .frameChild,
+  .musicartAll {
+    position: relative;
+    max-width: 100%;
+  }
+  .frameChild {
+    height: 87px;
+    width: 1728px;
+    background-color: #2e0052;
+    display: none;
+  }
+  .musicartAll {
+    width: 340px;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+  }
+  .main,
+  .rectangleParent {
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .rectangleParent {
+    align-self: stretch;
+    background-color: #2e0052;
+    flex-direction: row;
+    justify-content: center;
+    padding: 28px 20px 28px 32px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 26.4px;
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+  }
+  .main {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 55px 0 0;
+    gap: 195px;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 900px) {
+    .musicart {
+      font-size: 35px;
+    }
+    .main {
+      gap: 97px 195px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .imageContainerParent {
+      gap: 34px 68px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .musicart {
+      font-size: 26px;
+    }
+    .imageContainerParent {
+      gap: 17px 68px;
+    }
+    .musicartAll {
+      font-size: 21px;
+    }
+    .main {
+      gap: 49px 195px;
+    }
+  }
+  
+  

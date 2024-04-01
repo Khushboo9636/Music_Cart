@@ -1,0 +1,68 @@
+    .content {
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 0 20px;
+        box-sizing: border-box;
+        
+      }
+      .footerChild {
+        height: 87px;
+        width: 1728px;
+        position: relative;
+        background-color:  #2e0052;
+        display: none;
+        max-width: 100%;
+      }
+      .musicartAll {
+        position: relative;
+        font-weight: 500;
+        z-index: 1;
+      }
+      .div,
+      .footer {
+        display: flex;
+        box-sizing: border-box;
+      }
+      .footer {
+        align-self: stretch;
+        background-color:  #2e0052;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        padding: 28px 20px 28px 32px;
+        max-width: 100%;
+        text-align: left;
+        font-size: 26.4px;
+        color: #fff;
+        font-family: var(--font-roboto);
+      }
+      .div {
+        width: 100%;
+        position: relative;
+        background-color: #fff;
+        overflow: hidden;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: flex-start;
+        padding: 65px 0 0;
+        gap: 114px;
+        letter-spacing: normal;
+      }
+      @media screen and (max-width: 950px) {
+        .div{
+          gap: 57px 114px;
+        }
+      }
+      @media screen and (max-width: 450px) {
+        .musicartAll {
+          font-size: 21px;
+        }
+        .div {
+          gap: 28px 114px;
+        }
+      }
+      
+      

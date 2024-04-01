@@ -1,0 +1,347 @@
+
+.image4Icon {
+    height: 63px;
+    width: 63px;
+    position: relative;
+    object-fit: cover;
+  }
+  .musicart {
+    position: relative;
+    font-weight: 600;
+  }
+  .musicartLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0 0;
+  }
+  .logo,
+  .logoWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .logo{
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+  }
+  .logoWrapper {
+    width: 637px;
+    height: 80px;
+    justify-content: center;
+    padding: 0 var(--padding-xl) var(--padding-mid);
+    box-sizing: border-box;
+    max-width: 100%;
+    color: var(--color-midnightblue);
+  }
+  .container {
+    align-self: stretch;
+    border-radius: var(--br-4xl-2);
+    background-color: var(--color-white);
+    border: 3px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-21xl) var(--padding-28xl) var(--padding-31xl)
+      var(--padding-32xl);
+    gap: var(--gap-10xs);
+    max-width: 100%;
+    font-size: var(--font-size-3xl);
+  }
+  .containerChild {
+    width: 651px;
+    height: 944px;
+    position: relative;
+    border-radius: var(--br-4xl-2);
+    background-color: var(--color-white);
+    border: 3px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .createAccount {
+    position: relative;
+    z-index: 1;
+  }
+  .createAccountWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-lgi);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-30xl-2);
+  }
+  .yourName {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 106px;
+    z-index: 1;
+  }
+  .input1{
+    border: 2px solid var(--color-silver);
+    outline: 0;
+    background-color: var(--color-white);
+    align-self: stretch;
+    height: 57px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    min-width: 250px;
+    z-index: 1;
+  }
+  .formValues1{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-lgi);
+    gap: var(--gap-sm);
+  }
+  .mobileNumber {
+    position: relative;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .input2 {
+    border: 2px solid var(--color-silver);
+    outline: 0;
+    background-color: var(--color-white);
+    align-self: stretch;
+    height: 57px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    min-width: 250px;
+    z-index: 1;
+  }
+  .formValues2{
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-lgi);
+    gap: var(--gap-sm);
+  }
+  .emailId {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 79px;
+    z-index: 1;
+  }
+  .input3 {
+    border: 2px solid var(--color-silver);
+    outline: 0;
+    background-color: var(--color-white);
+    align-self: stretch;
+    height: 57px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    min-width: 250px;
+    z-index: 1;
+  }
+  .formValues3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-lgi);
+    gap: var(--gap-sm);
+  }
+  .password,
+  .input4 {
+    position: relative;
+    z-index: 1;
+  }
+  .password {
+    font-weight: 500;
+    display: inline-block;
+    min-width: 98px;
+  }
+  .input4 {
+    border: 2px solid var(--color-silver);
+    outline: 0;
+    background-color: var(--color-white);
+    align-self: stretch;
+    height: 57px;
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    min-width: 250px;
+  }
+  .formValues4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-7xl);
+    gap: var(--gap-sm);
+  }
+  .byEnrollingYour {
+    margin: 0;
+  }
+  .byEnrollingYourContainer {
+    align-self: stretch;
+    height: 140px;
+    position: relative;
+    line-height: 28px;
+    font-weight: 500;
+    display: inline-block;
+    z-index: 1;
+  }
+  .signup{
+    height: 66px;
+    width: 547px;
+    position: relative;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-midnightblue);
+    display: none;
+    max-width: 100%;
+  }
+  .continue {
+    position: relative;
+    font-size: var(--font-size-8xl);
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 109px;
+    z-index: 2;
+  }
+  .continueButton,
+  .signupbtn{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .signupbtn {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-mid) var(--padding-190xl);
+    background-color: var(--color-midnightblue);
+    flex: 1;
+    border-radius: var(--br-5xs);
+    justify-content: center;
+    z-index: 1;
+  }
+  .signupbtn:hover {
+    background-color: var(--color-darkslateblue);
+  }
+  .continueButton {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-8xl);
+  }
+  .byContinuingYou {
+    width: 540px;
+    position: relative;
+    font-size: var(--font-size-mid-8);
+    line-height: 26px;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  
+  .alreadyHaveAn {
+    font-weight: 500;
+  }
+  .signIn {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .alreadyHaveAnContainer {
+    position: relative;
+    line-height: 32px;
+  }
+  .alreadyHaveAnAccountSignWrapper,
+  .main{
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .alreadyHaveAnAccountSignWrapper {
+    width: 635px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    font-size: var(--font-size-6xl-1);
+  }
+  .main{
+    width: 651px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-32xl);
+    text-align: left;
+    font-size: var(--font-size-25xl-1);
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  @media screen and (max-width: 950px) {
+    .musicart {
+      font-size: var(--font-size-16xl);
+    }
+    .createAccount {
+      font-size: var(--font-size-20xl);
+    }
+    .container {
+      padding-top: var(--padding-7xl);
+      padding-bottom: var(--padding-13xl);
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 700px) {
+    .container {
+      padding: var(--padding-xl) var(--padding-4xl) var(--padding-2xl)
+        var(--padding-6xl);
+      box-sizing: border-box;
+    }
+    .main{
+      gap: 25px 51px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .musicart {
+      font-size: var(--font-size-7xl);
+    }
+    .createAccount {
+      font-size: var(--font-size-11xl);
+    }
+    .byEnrollingYourContainer,
+    .emailId,
+    .mobileNumber,
+    .password,
+    .yourName {
+      font-size: var(--font-size-lg);
+    }
+    .byEnrollingYourContainer {
+      line-height: 22px;
+    }
+    .continue {
+      font-size: var(--font-size-3xl);
+    }
+    .signupbtn {
+      padding-left: var(--padding-xl);
+      padding-right: var(--padding-xl);
+      box-sizing: border-box;
+    }
+    .alreadyHaveAnContainer {
+      font-size: var(--font-size-xl);
+      line-height: 26px;
+    }
+  }
+  

@@ -1,0 +1,748 @@
+.topContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    width: 100vw;
+    padding: 0 0 75px;
+    box-sizing: border-box;
+    gap: 61px;
+    text-align: left;
+    font-size: 44.1px;
+    color:#2e0052;
+    font-family: var(--font-roboto);
+}
+.imgIcon{
+    height: 63px;
+    width: 63px;
+    position: relative;
+    object-fit: cover;
+  }
+  .musicart {
+    position: relative;
+    font-weight: 600;
+  }
+  .musicartWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 6px 20px 0 0;
+  }
+ 
+.topHome{
+  flex-direction: column;
+  padding: 10px 0 1px;
+  font-size: 26.4px;
+  color: #000;
+  width: 100%;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    min-width: 72px;
+    color: #000;
+  }
+  .rightContent{
+    padding: 22px 1px 65px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    align-items: center;
+    width: 20vw;
+    justify-content: space-evenly;
+  
+  }
+  .cartButton{
+    background: green;
+    border-radius: 82px;
+    align-items: center;
+    text-align: center;
+    padding-right: 3px;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+    
+  }
+
+  .tag1,
+  .imagePlaceholder {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .tag1 {
+    flex-direction: row;
+    gap:7px;
+    min-width: 200px;
+  }
+  
+  .topLeftSide
+  {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .topLeftSide{
+    align-self: stretch;
+    flex-direction: row;
+    gap: 28px;
+  }
+  .BackBtnContainer{
+    flex-direction: row;
+    padding: 0 9px;
+  }
+  .backBtn,
+
+.BackBtnContainer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.backBtn:hover {
+    background-color: #613385;
+  }
+  .frameChild {
+    height: 59px;
+    width: 281px;
+    position: relative;
+    border-radius: 14px;
+    background-color: #2e0052;
+    display: none;
+  }
+  .backToProducts {
+    position: relative;
+    font-size: 28.1px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: left;
+    z-index: 1;
+  }
+  .backBtn {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 34px;
+    background-color: #2e0052;
+    border-radius: 14px;
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  .topLeftContent {
+   
+    display: flex;
+    flex-flow: column;
+    gap: 30px;
+    
+    max-width: 100%;
+    min-width: 70vw;
+    padding: 28px 0px 11px 35px;
+  }
+
+  .topHeader {
+    display: flex;
+    width: 1547px;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+    color: #2e0052;
+  }
+
+
+
+
+  .shortDescription {
+    flex: 1;
+    position: relative;
+    line-height: 42px;
+    font-weight: 600;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .shortWrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 13px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frameChild,
+  .image1Icon {
+    position: relative;
+    max-width: 100%;
+  }
+  .frameChild {
+    align-self: stretch;
+    width: 852px;
+    border-radius: 25px;
+    background-color: var(--color-midnightblue);
+    display: none;
+  }
+ 
+
+
+  .image1Icon {
+    height:100%;
+    flex: 1;
+    border-radius: 18px;
+    overflow: hidden;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .rectangleParent {
+    align-self: stretch;
+    height: 94vh;
+    border-radius: 25px;
+    background-color: var(--color-midnightblue);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 6px 7px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+  }
+  .image2Icon,
+  .image3Icon,
+  .image4Icon {
+    position: relative;
+    border-radius: 16px;
+    max-width: 100%;
+    min-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+    min-height: 135px;
+    background-color: #2e0052;
+  }
+  .im1, .im2, .im3{
+    width: 30%;
+  }
+  .imageContainer,
+  .image24Parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .image24Parent {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 34.5px;
+    flex-shrink: 0;
+    debug_commit: f6aba90;
+    
+  }
+  .imageContainer {
+    flex: 1;
+    flex-direction: column;
+    gap: 46.80000000000018px;
+    min-width: 30%;
+    max-width: 70%;
+    padding: 6px 7px 0 10px;
+  }
+  .title {
+    position: relative;
+    font-weight: 600;
+  }
+  .productitle {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 2px 4px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 52px;
+  }
+  .image1,
+  .image2,
+  .image3,
+  .image4,
+  .image5 {
+    height: 44px;
+    width: 40.8px;
+    position: relative;
+    border-radius: 2px;
+    min-height: 44px;
+  }
+  .imageParent {
+    height: 44px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.19999999999999576px;
+  }
+  .imageParent {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Adjust the font size of the stars */
+  .imageParent > span {
+    font-size: 16px; /* Adjust as needed */
+    color: #ffd700; /* Adjust the color of the stars */
+    margin-right: 2px; /* Adjust the spacing between stars */
+  }
+  .customerReviews1 {
+    position: relative;
+  }
+  .customerReviews,
+  .product_rating{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .customerReviews {
+    flex-direction: column;
+    padding: 4px 0 0;
+  }
+  .product_rating{
+    flex-direction: row;
+    gap: 23.19999999999999px;
+  }
+  .price {
+    position: relative;
+    font-weight: 500;
+  }
+  .priceHeadphones,
+  .itemDescription {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .priceHeadphones {
+    flex-direction: row;
+    padding: 0 2px;
+    font-size:34px;
+  }
+  .itemDescription {
+    flex-direction: column;
+    gap: 20px;
+    max-width: 100%;
+    font-size: 29px;
+  }
+  .blackOverEar {
+    position: relative;
+  }
+  .productName {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 2px 7px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .aboutThisItem {
+    margin: 0;
+  }
+  .productname {
+    margin-bottom: 0;
+  }
+  .productNameContainer{
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 37px;
+  }
+  .ever {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .upTo50Hour {
+    margin-bottom: 0;
+  }
+  .upTo50HourBatteryLifeWit {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 37px;
+  }
+  .chargeForUp {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .multiPointConnectionHelps {
+    margin-bottom: 0;
+  }
+  .multiPointConnectionHelpsT {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 37px;
+  }
+  .bluetoothDevicesAt {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .takeNoiseCancelling {
+    margin-bottom: 0;
+  }
+  .takeNoiseCancellingToTheN {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 37px;
+  }
+  .integratedProcessorV1so,
+  .yourselfInThe {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .superComfortableAnd {
+    margin-bottom: 0;
+  }
+  .superComfortableAndLightwei {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 37px;
+  }
+  .grams,
+  .highSoundQualityAndWellBa {
+    margin: 0;
+    white-space: pre-wrap;
+  }
+  .highSoundQualityAndWellBa {
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: 37px;
+  }
+  .aboutThisItemContainer {
+    position: relative;
+  }
+  .aboutContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 7px 2px;
+    font-size: 28px;
+  }
+  .available {
+    font-weight: 500;
+  }
+  .availableInContainer {
+    position: relative;
+  }
+  .brand {
+    font-weight: 500;
+  }
+  .brandContainer {
+    position: relative;
+  }
+  .blackOverlay,
+  .availableAndBrand {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .blackOverlay {
+    flex-direction: column;
+    gap: 13px;
+  }
+  .availableAndBrand {
+    flex-direction: row;
+    padding: 0 2px 28px;
+  }
+  .frameItem {
+    height: 64px;
+    width: 479px;
+    position: relative;
+    border-radius: 40px;
+    background-color: #ffd600;
+    display: none;
+    max-width: 100%;
+  }
+  .addToCart {
+    position: relative;
+    font-size: 33px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 1;
+  }
+  .frameWrapper1,
+  .addToCartBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .addToCartBtn {
+    cursor: pointer;
+    border: 0;
+    padding: 12px 20px 13px;
+    background-color: #ffd600;
+    flex: 1;
+    border-radius: 40px;
+    justify-content: center;
+    white-space: nowrap;
+  }
+  .addToCartBtn:hover {
+    background-color: #cca300;
+  }
+  .frameWrapper1 {
+    width: 483px;
+    justify-content: flex-start;
+    padding: 0 2px 7px;
+  }
+  .frameWrapper2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frameWrapper2 {
+    width: 483px;
+    flex-direction: row;
+    padding: 0 2px;
+    box-sizing: border-box;
+  }
+  .frameInner {
+    height: 64px;
+    width: 479px;
+    position: relative;
+    border-radius: 40px;
+    background-color: #ffb800;
+    display: none;
+    max-width: 100%;
+  }
+  .buyNow {
+    height: 42.3px;
+    position: relative;
+    font-size: 33px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    z-index: 1;
+  }
+  .buyNowBtn {
+    cursor: pointer;
+    border: 0;
+    padding: 11px 20px 10.699999999999818px 21px;
+    background-color: #ffb800;
+    flex: 1;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .buyNowBtn:hover {
+    background-color: #cc8500;
+  }
+  .detailDiv{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .frameWraper2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 30%;
+  }
+  .deatilWrapper{
+    max-width: 30%;
+    min-width: 50%;
+    flex-direction: column;
+  }
+  .frameWraper2 {
+    width: 483px;
+    flex-direction: row;
+    padding: 0 2px;
+    box-sizing: border-box;
+  }
+  .detailDiv{
+    flex-direction: column;
+  }
+  .detailDiv {
+    gap: 13px;
+  }
+  .deatilWrapper {
+    padding: 48px 0 0;
+    box-sizing: border-box;
+    min-width: 686px;
+  }
+  .frameGroup {
+    width: 1577px;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 39px;
+  }
+  .frameGroup,
+  .productDetailContainer,
+  .mainbody {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .productDetailContainer {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 54px;
+    text-align: left;
+    font-size:34px;
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  .mainbody {
+    width: 1662px;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 29px 33px;
+    box-sizing: border-box;
+  }
+  .musicartCopyrightChild {
+    height: 87px;
+    width: 1728px;
+    position: relative;
+    background-color: var(--color-midnightblue);
+    display: none;
+    max-width: 100%;
+  }
+  .musicartAll {
+    position: relative;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .musicartCopyright {
+    align-self: stretch;
+    background-color: var(--color-midnightblue);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 28px 20px 28px 32px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 26.4px;
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+  }
+  .mainContainer {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 42px;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1325px) {
+    .deatilWrapper {
+      flex: 1;
+    }
+    .frameGroup {
+      flex-direction: row;
+    }
+  }
+  @media screen and (max-width: 1125px) {
+    .deatilWrapper {
+      padding-top: 31px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 800px) {
+    .sonyWhCh720ntWireless {
+      font-size: 27px;
+      line-height: 34px;
+    }
+    .image24Parent {
+      justify-content: center;
+      grid-template-columns: repeat(2, minmax(196px, 339px));
+    }
+    .imageContainer {
+      min-width: 30%;
+    }
+    .title {
+      font-size: 42px;
+    }
+    .product_rating{
+      flex-wrap: wrap;
+    }
+    .availableInContainer,
+    .blackOverEar,
+    .brandContainer,
+    .price {
+      font-size: 27px;
+    }
+    .deatilWrapper {
+      padding-top: 20px;
+      box-sizing: border-box;
+      min-width: 29%;
+    }
+    .frameGroup {
+      gap: 39px 19px;
+    }
+    .productDetailContainer {
+      gap: 27px 54px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .sonyWhCh720ntWireless {
+      font-size: var(--font-size-xl);
+      line-height: 25px;
+    }
+    .image2Icon,
+    .image3Icon,
+    .image4Icon {
+      width: 100%;
+    }
+    .image24Parent {
+      gap: 34.5px 17px;
+      grid-template-columns: minmax(196px, 1fr);
+    }
+    .imageContainer {
+      gap: 23px 46.8px;
+    }
+    .sonyWhCh720nt {
+      font-size: 31px;
+    }
+    .customerReviews1 {
+      font-size: 23px;
+    }
+    .blackOverEar,
+    .price {
+      font-size: var(--font-size-xl);
+    }
+    .aboutThisItemContainer {
+      font-size: 22px;
+    }
+    .availableInContainer,
+    .brandContainer {
+      font-size: var(--font-size-xl);
+    }
+    .musicartAll {
+      font-size: var(--font-size-2xl);
+    }
+    .div {
+      gap: 21px 42px;
+    }
+  }
+  
+ 

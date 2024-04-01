@@ -1,0 +1,39 @@
+
+  .footerChild {
+    height: 87px;
+    width: 1728px;
+    position: relative;
+    background-color:  #2e0052;
+    display: none;
+    max-width: 100%;
+  }
+  .musicartAll {
+    position: relative;
+    font-weight: 500;
+    z-index: 1;
+  }
+  
+  .footer {
+    display: flex;
+    box-sizing: border-box;
+  }
+  .footer {
+    align-self: stretch;
+    background-color:  #2e0052;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 28px 20px 28px 32px;
+    max-width: 100%;
+    text-align: left;
+    font-size: 26.4px;
+    color: #fff;
+    font-family: var(--font-roboto);
+  }
+ 
+  @media screen and (max-width: 450px) {
+    .musicartAll {
+      font-size: 21px;
+    }
+    
+  }

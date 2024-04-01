@@ -1,0 +1,126 @@
+.mainContainer{
+    width: 1709px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 76px 56px;
+  box-sizing: border-box;
+}
+.mainChild{
+    flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-mid);
+  text-align: left;
+  font-size: var(--font-size-7xl-4);
+  color: var(--color-black);
+  font-family: var(--font-roboto);
+}
+.mainContainer,
+.mainChild {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.topContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    width: 100vw;
+    padding: 0 0 var(--padding-56xl);
+    box-sizing: border-box;
+    gap: var(--gap-42xl);
+    text-align: left;
+    font-size: var(--font-size-25xl-1);
+    color: var(--color-midnightblue);
+    font-family: var(--font-roboto);
+}
+.imgIcon{
+    height: 63px;
+    width: 63px;
+    position: relative;
+    object-fit: cover;
+  }
+  .musicart {
+    position: relative;
+    font-weight: 600;
+  }
+  .musicartWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) var(--padding-xl) 0 0;
+  }
+  .tag1,
+.productImage {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.topHome{
+  flex-direction: column;
+  padding: var(--padding-3xl) 0 0;
+  font-size: var(--font-size-7xl-4);
+  color: var(--color-black);
+}
+.tag1 {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}
+.home {
+    position: relative;
+    display: inline-block;
+    min-width: 72px;
+  }
+
+  
+  @media screen and (max-width: 825px) {
+    .mainContainer{
+        padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    }
+    .musicart {
+      font-size: var(--font-size-16xl);
+    }
+   
+    .topContent{
+      gap: 30px 61px;
+      padding-bottom: var(--padding-30xl);
+      box-sizing: border-box;
+    }
+
+  }
+  @media screen and (max-width: 450px) {
+    .musicart {
+      font-size: var(--font-size-7xl);
+    }
+    .home {
+      font-size: var(--font-size-2xl);
+    }
+    .tag1 {
+      flex-wrap: wrap;
+    }
+    
+    .topContent{
+      padding-bottom: var(--padding-13xl);
+      box-sizing: border-box;
+      gap: 15px 61px;
+    }
+  }
+  @media screen and (max-width: 1425px) {
+    .mainContainer {
+      padding-bottom: 23px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .mainContainer{
+      padding-left: var(--padding-19xl);
+      padding-right: var(--padding-19xl);
+      box-sizing: border-box;
+    }
+  }
+  

@@ -1,0 +1,165 @@
+ .CardContainer {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 17px;
+    letter-spacing: normal;
+    text-decoration: none;
+  }
+  
+.CardChild {
+    height: 348px;
+    width: 348px;
+    position: relative;
+    background-color: #d4e5ff;
+    display: none;
+    max-width: 100%;
+  }
+.item{
+    padding-left: 10px;
+  }
+  .item,
+  .wrapperCart {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+ .wrapperCart {
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    object-fit: contain;
+    transform: scale(1.275);
+  }
+  .cartlogo{
+    position: absolute;
+    top: 138px;
+    left: 120px;
+    width: 35px;
+    height: 33px;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+ .CartItemImage {
+    height: 160px;
+    flex: 1;
+    position: relative;
+  }
+ .CardImage {
+    align-self: stretch;
+    background-color: #d4e5ff;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 16px 59px 12px 23px;
+    height: 201px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .cardPrice,
+  .cardTitle {
+    display: inline-block;
+    box-sizing: border-box;
+    padding-right: 20px;
+  }
+  .cardTitle {
+    width: 100%;
+    position: relative;
+    font-weight: 600;
+  }
+  .cardPrice {
+    width: 190px;
+  }
+  .colorOrType,
+  .cardPrice {
+    position: relative;
+    font-weight: 500;
+  }
+  .cardBody,
+   .descriptionWrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .cardBody {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  .descriptionWrapper {
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 11px 8px 2px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 14.4px;
+    color: var(--color-black);
+    font-family: Roboto;
+  }
+  
+  
+.GridCardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* List View Styles */
+.ListCardContainer,
+.ListCardContainer.CardContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+
+.ListCardContainer .CardImage {
+  flex: 0 0 30%;
+  margin-right: 20px;
+}
+
+.ListCardContainer .descriptionWrapper {
+ width: 100%;
+}
+
+/* Common Styles */
+.CardImage img {
+  max-width: 100%;
+}
+
+.cardTitle {
+  font-weight: bold;
+}
+
+.cardPrice {
+  margin-top: 5px;
+}
+
+.colorOrType {
+  margin-top: 5px;
+}
+
+.viewDetailsButton {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+  

@@ -1,0 +1,1063 @@
+.mainContainer{
+    width: 100vw;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 76px 56px;
+  box-sizing: border-box;
+}
+.mainChild{
+    flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 17px;
+  text-align: left;
+  font-size: 19.4px;
+  color: #000;
+  font-family: var(--font-roboto);
+}
+.mainContainer,
+.mainChild {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.topContent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    width: 100vw;
+    padding: 0 0 75px;
+    box-sizing: border-box;
+    gap: 61px;
+    text-align: left;
+    font-size: 44.1px;
+    color:#2e0052;
+    font-family: var(--font-roboto);
+}
+.imgIcon{
+    height: 63px;
+    width: 63px;
+    position: relative;
+    object-fit: cover;
+  }
+  .musicart {
+    position: relative;
+    font-weight: 600;
+  }
+  .musicartWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding:25px 10px 0 0;
+  }
+ 
+.topHome{
+  flex-direction: column;
+  padding: 22px 0 0;
+  font-size: 26.4px;
+  color: #000;
+  width: 100%;
+}
+
+.home {
+    position: relative;
+    display: inline-block;
+    min-width: 72px;
+    color: #000;
+  }
+  .rightContent{
+    padding: 22px 0 0;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 56px;
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    align-items: center;
+    width: 100%;
+    text-decoration: none;
+    
+  
+  }
+  .rightContent a{
+    text-decoration: none;
+    color: white;
+  }
+  .cartButton{
+    background: green;
+    border-radius: 82px;
+    align-items: center;
+    text-align: center;
+    padding-right: 3px;
+    font-size: 15px;
+    justify-content: center;
+    display: flex;
+    flex-flow: row;
+    
+  }
+
+  .tag1,
+  .imagePlaceholder {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .tag1 {
+    flex-direction: row;
+    gap:7px;
+    min-width: 161px;
+  }
+  
+  .topLeftSide,
+  .inStockMessage {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+
+  .topLeftSide{
+    align-self: stretch;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 28px;
+  }
+  .BackBtnContainer{
+    flex-direction: row;
+    padding: 0 9px;
+  }
+  .backBtn,
+.totalMRP,
+.BackBtnContainer{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.backBtn:hover {
+    background-color: #613385;
+    cursor: pointer;
+  }
+  .frameChild {
+    height: 59px;
+    width: 281px;
+    position: relative;
+    border-radius: 14px;
+    background-color: #2e0052;
+    display: none;
+  }
+  .backToProducts {
+    position: relative;
+    font-size: 28.1px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: left;
+    z-index: 1;
+  }
+  .backBtn {
+    cursor: pointer;
+    border: 0;
+    padding: 13px 34px;
+    background-color: #2e0052;
+    border-radius: 14px;
+    flex-direction: row;
+    white-space: nowrap;
+  }
+  .topLeftContent {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 100%;
+  }
+
+  .topHeader {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding-top: 20px;
+    gap: 20px;
+    color: #2e0052;
+  }
+  .myCartTitle {
+    flex: 1;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .myCartTitle {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cartView,
+.frameParent,
+.myCartTitle {
+  display: flex;
+  max-width: 100%;
+}
+
+.cartView {
+    width: 1696px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 63px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 44.1px;
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  .frameParent {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 42px;
+  }
+
+  .mainLeftSideContent {
+    align-self: stretch;
+   
+    padding: 0 0 0 9px;
+    box-sizing: border-box;
+   
+   
+  }
+
+
+  .bagIcon {
+    height: 58.7px;
+    width: 61.1px;
+    min-height: 59px;
+  }
+  .bagIcon,
+  .myCart {
+    position: relative;
+  }
+  .headingTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 12.599999999999907px 0 0;
+  }
+  .itemImagePlaceholder,
+  .headingBox {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .itemImagePlaceholder {
+    align-self: stretch;
+    justify-content: flex-start;
+    gap: 21.30000000000001px;
+  }
+  .headingBox {
+    width: 1538.4px;
+    height: 77.9px;
+    justify-content: center;
+    padding: 0 20px 18.300000000000185px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 39.8px;
+  }
+  .headingBox{
+    width: 1538.4px;
+    height: 77.9px;
+    justify-content: center;
+    padding: 0 20px 18.300000000000185px;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: 39.8px;
+  }
+  .frameInner,
+  .taxDisplay {
+    align-self: stretch;
+    position: relative;
+  }
+  .taxDisplay {
+    height: 2.9px;
+    border-top: 2.9px solid #e1e1e1;
+    box-sizing: border-box;
+  }
+  .frameInner {
+    width: 200.9px;
+    border-radius: 8.5px;
+    background-color: #2e0052;
+    display: none;
+  }
+  .image23Icon {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 6.12px;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .itemImageContainer{
+    width: 100%;
+  }
+  .frameWrapper,
+  .rectangleContainer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .rectangleContainer {
+    height: 20vh;
+    flex: 1;
+    border-radius: 8.5px;
+    background-color: #2e0052;
+    flex-direction: row;
+    padding: 2.099999999999909px 1.3999999999999773px 1.5px;
+  }
+  .frameWrapper {
+    height: 197.9px;
+    flex-direction: column;
+    padding: 0 19px 0 0;
+    box-sizing: border-box;
+  }
+  .sonyWhCh720n {
+    position: relative;
+    line-height: 36.97px;
+    font-weight: 600;
+  }
+  .clourBlack {
+    position: relative;
+    font-size: 14.8px;
+    line-height: 34px;
+    color: #a2a2a2;
+  }
+  .addToCartButton {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 19.700000000000273px;
+  }
+  .inStock {
+    position: relative;
+    font-size: 16.8px;
+    line-height: 0px;
+    color: #a2a2a2;
+    display: inline-block;
+    min-width: 90px;
+  }
+  .productImage,
+  .productName {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .productName {
+    gap: 12px;
+  }
+  .productImage {
+    padding: 6.599999999999909px 14px 0 0;
+  }
+  .div1,
+  .price {
+    position: relative;
+    line-height: 37px;
+    display: inline-block;
+  }
+  .price {
+    font-weight: 500;
+    min-width: 69px;
+  }
+  .div1 {
+    min-width: 83px;
+    white-space: nowrap;
+  }
+  .paymentMethodLabel,
+  .paymentMethodLabelWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .paymentMethodLabel {
+    gap: 16.800000000000182px;
+  }
+  .paymentMethodLabelWrapper {
+    padding: 6.599999999999909px 0 0;
+  }
+  .quantity {
+    position: relative;
+    line-height: 37px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 113px;
+  }
+  
+  .groupDiv
+   {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 10px;
+  }
+  .groupDiv {
+    align-self: stretch;
+    border-radius: 0 0 5px 5px;
+    background-color: #f9f9f9;
+    border: 0.9px solid #bebebe;
+    flex-direction: column;
+    padding: 6px 0 4px;
+    gap: 2.5px;
+    z-index: 2;
+    margin-top: -14.4px;
+    text-align: left;
+    font-size: 12px;
+  }
+  
+  .quantityInput,
+  .quantityParent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .quantityParent {
+    align-self: stretch;
+    gap: 15.599999999999907px;
+  }
+  .quantityInput {
+    width: 126.1px;
+    padding: 6.800000000000182px 13.099999999999994px 0 0;
+    box-sizing: border-box;
+  }
+  .div9,
+  .total {
+    position: relative;
+    line-height: 37px;
+    display: inline-block;
+  }
+  .total {
+    font-weight: 500;
+    min-width: 67px;
+  }
+  .div9 {
+    min-width: 83px;
+    white-space: nowrap;
+  }
+  .frameContainer,
+  .totalParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .totalParent {
+    gap: 16.59999999999991px;
+  }
+  .frameContainer {
+    padding: 6.800000000000182px 0 0;
+  }
+  .frameGroup,
+  .shippingDisplay,
+  .subtotalDisplay {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .frameGroup {
+    padding-bottom: 20px;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+  }
+  .shippingDisplay,
+  .subtotalDisplay {
+    align-self: stretch;
+    justify-content: flex-start;
+  }
+  .shippingDisplay {
+    display: flex;
+    flex-flow: column;
+    padding: 0 52px;
+    box-sizing: border-box;
+  }
+  .subtotalDisplay {
+    flex-direction: column;
+    gap: 39.09999999999991px;
+  }
+  .backToProductsButtonChild {
+    align-self: stretch;
+    height: 2.9px;
+    position: relative;
+    border-top: 2.9px solid #e1e1e1;
+    box-sizing: border-box;
+  }
+  .div10,
+  .item {
+    position: relative;
+    line-height: 37px;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 86px;
+  }
+  .div10 {
+    min-width: 84px;
+    white-space: nowrap;
+  }
+  .itemPrice1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .backToProductsButton,
+  .cartSummary {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .cartSummary {
+    width: 851.1px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 51.00000000000006px 0 51px;
+  }
+  .backToProductsButton {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 23.899999999999636px;
+  }
+  .priceDisplayInner{
+    width: 100%;
+    height: 100vh;
+  }
+  .priceDisplayInner,
+  .subtotalDisplayParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .subtotalDisplayParent {
+    align-self: stretch;
+    gap: 156.9000000000001px;
+    max-width: 100%;
+  }
+  .priceDisplayInner {
+    flex: 1;
+    padding: 10.099999999999907px 0 0;
+    box-sizing: border-box;
+    max-width: calc(100% - 14px);
+  }
+  .sideline {
+    height: 517.9px;
+    width: 2.9px;
+    position: relative;
+    border-right: 2.9px solid #e1e1e1;
+    box-sizing: border-box;
+  }
+  .topline {
+    width: 517.9px;
+    height: 2.9px;
+    position: relative;
+    border-right: 2.9px solid #e1e1e1;
+    box-sizing: border-box;
+  }
+  .priceDisplay {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11.099999999999907px;
+    min-width: 600px;
+    max-width: 100%;
+  }
+  .priceDetails {
+    position: relative;
+    line-height: 32px;
+    font-weight: 500;
+  }
+  .totalMrp {
+    display: inline-block;
+    min-width: 116px;
+  }
+  .discountOnMrp,
+  .totalMrp {
+    position: relative;
+    line-height: 32px;
+  }
+  .discountAmountLabel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 7.400000000000091px;
+  }
+  .convenienceFee1 {
+    position: relative;
+    line-height: 32px;
+  }
+  .convenienceFeeLabel,
+  .totalAmount {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .totalAmount {
+    align-self: stretch;
+    gap: 15px;
+  }
+  .convenienceFeeLabel {
+    width: 194px;
+    padding: 4px 0 0;
+    box-sizing: border-box;
+    min-width: 194px;
+  }
+  .div11,
+  .div12 {
+    position: relative;
+    line-height: 40px;
+    display: inline-block;
+    min-width: 70px;
+    white-space: nowrap;
+  }
+  .div12 {
+    min-width: 28px;
+  }
+  .currencySymbol {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:7px;
+  }
+  .div13 {
+    position: relative;
+    line-height: 40px;
+    display: inline-block;
+    min-width: 42px;
+    white-space: nowrap;
+  }
+  .paymentButton {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0 1px 0 0;
+    box-sizing: border-box;
+    gap: 14.400000000000093px;
+    min-width: 70.10000000000002px;
+  }
+  .mRPLabel,
+  .paymentButton,
+  .priceDetailsParent {
+    display: flex;
+    align-items: flex-start;
+  }
+  .mRPLabel {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  .priceDetailsParent {
+    width: 362.6px;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 18.59999999999991px;
+    max-width: 100%;
+  }
+  .totalAmount1 {
+    position: relative;
+    line-height: 32px;
+    font-weight: 500;
+  }
+  .totalAmountWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+  }
+  .div14 {
+    position: relative;
+    line-height: 40px;
+    display: inline-block;
+    min-width: 83px;
+    white-space: nowrap;
+  }
+  .musicartLogo {
+    width: 376px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    gap: 20px;
+  }
+  .frameChild6 {
+    height: 67px;
+    width: 386px;
+    position: relative;
+    border-radius: 11px;
+    background-color: #ffd600;
+    display: none;
+    max-width: 100%;
+  }
+  .placeOrder {
+    position: relative;
+    font-size: 27px;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 1;
+  }
+  .groupButton {
+    cursor: pointer;
+    border: 0;
+    padding: 18px 20px 17px;
+    background-color: #ffd600;
+    align-self: stretch;
+    border-radius: 11px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    white-space: nowrap;
+    max-width: 100%;
+  }
+  .groupButton:hover {
+    background-color: #cca300;
+  }
+  .frameParent1,
+  .musicartLogoParent {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .musicartLogoParent {
+    display: flex;
+    align-items: flex-start;
+    gap: 51px;
+    max-width: 100%;
+    font-size: 29.9px;
+  }
+  .frameParent1 {
+    gap: 263px;
+  }
+  .frameParent1,
+  
+  .orderPlacementButton {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .orderPlacementButton {
+    width: 386px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 6.099999999999909px 0 0;
+    box-sizing: border-box;
+    font-size: 25.2px;
+  }
+  .orderButton {
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    gap: 24.09999999999991px;
+  }
+  .myCartTitle{
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+  .myCartTitle {
+    flex: 1;
+    flex-direction: column;
+    gap: 72px;
+  }
+  .cartView,
+  .frameParent,
+  .myCartTitle {
+    display: flex;
+    max-width: 100%;
+  }
+  .cartView {
+    width: 1696px;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 63px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: 44.1px;
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  .frameParent {
+    align-self: stretch;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 42px;
+  }
+  .contactUsLabelChild {
+    height: 87px;
+    width: 1728px;
+    position: relative;
+    background-color: #2e0052;
+    display: none;
+    max-width: 100%;
+  }
+  .musicartAll {
+    position: relative;
+    font-weight: 500;
+    z-index: 1;
+  }
+  .contactUsLabel,
+  .div {
+    display: flex;
+    align-items: flex-start;
+  }
+  .contactUsLabel {
+    align-self: stretch;
+    background-color: #2e0052;
+    flex-direction: row;
+    justify-content: center;
+    padding: 28px 20px 28px 32px;
+    box-sizing: border-box;
+    max-width: 100%;
+    text-align: left;
+    font-size: 26.4px;
+    color: var(--color-white);
+    font-family: var(--font-roboto);
+  }
+  .div {
+    width: 100%;
+    position: relative;
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 302px;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .shippingDisplay {
+      padding-left: 26px;
+      padding-right: 26px;
+      box-sizing: border-box;
+    }
+    .subtotalDisplayParent {
+      gap: 78px 156.9px;
+    }
+    .cartView {
+      padding-left: 31px;
+      padding-right: 31px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .musicart {
+      font-size: 35px;
+    }
+    .myCart {
+      font-size: 32px;
+    }
+    .frameGroup {
+      flex-wrap: wrap;
+    }
+    .cartSummary {
+      padding-left: 25px;
+      padding-right: 25px;
+      box-sizing: border-box;
+    }
+    
+    .div {
+      gap: 151px 302px;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .totalMRP {
+      gap: 34px 69px;
+    }
+    .itemPrice {
+      flex-wrap: wrap;
+    }
+    .subtotalDisplay {
+      gap: 20px 39.1px;
+    }
+    .subtotalDisplayParent {
+      gap: 39px 156.9px;
+    }
+    .myCartTitle {
+      gap: 36px 72px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .musicart {
+      font-size: 26px;
+    }
+    .homeViewCart {
+      font-size: 21px;
+    }
+    .convenienceFee {
+      flex-wrap: wrap;
+    }
+    .myCart,
+    .sonyWhCh720n {
+      font-size: 24px;
+    }
+    .sonyWhCh720n {
+      line-height: 30px;
+    }
+    .clourBlack,
+    .inStock {
+      font-size: 21px;
+      line-height: 26px;
+    }
+    .div1,
+    .div10,
+    .div9,
+    .item,
+    .price,
+    .quantity,
+    .total {
+      font-size: 24px;
+      line-height: 30px;
+    }
+    .itemPrice1 {
+      flex-wrap: wrap;
+    }
+    .subtotalDisplayParent {
+      gap: 20px 156.9px;
+    }
+    .convenienceFee1,
+    .discountOnMrp,
+    .priceDetails,
+    .totalMrp {
+      font-size: 20px;
+      line-height: 25px;
+    }
+    .convenienceFeeLabel {
+      flex: 1;
+    }
+    .div11,
+    .div12,
+    .div13 {
+      font-size: 20px;
+      line-height: 32px;
+    }
+    .paymentButton {
+      flex: 1;
+      padding-right: 0;
+      box-sizing: border-box;
+    }
+    .mRPLabel {
+      flex-wrap: wrap;
+    }
+    .div14,
+    .totalAmount1 {
+      font-size: 24px;
+      line-height: 25px;
+    }
+    .div14 {
+      line-height: 32px;
+    }
+    .musicartLogo {
+      flex-wrap: wrap;
+    }
+    .musicartLogoParent {
+      gap: 25px 51px;
+    }
+    .frameParent1 {
+      gap: 131px 263px;
+    }
+    .myCartTitle {
+      gap: 18px 72px;
+    }
+    .frameParent {
+      gap: 21px 42px;
+    }
+    .musicartAll {
+      font-size: 21px;
+    }
+    .div {
+      gap: 75px 302px;
+    }
+  }
+  
+ 
+  
+
+  @media screen and (max-width: 825px) {
+    .mainContainer{
+        padding-bottom: 20px;
+     box-sizing: border-box;
+    }
+    .musicart {
+      font-size: 35px;
+    }
+   
+   
+    .topContent{
+      gap: 30px 61px;
+      padding-bottom: 49px;
+      box-sizing: border-box;
+    }
+   
+  }
+  @media screen and (max-width: 450px) {
+    .musicart {
+      font-size: 26.4px;
+    }
+    .home {
+      font-size: 21px;
+    }
+    .tag1 {
+      flex-wrap: wrap;
+    }
+    
+    .topContent{
+      padding-bottom: 32px;
+      box-sizing: border-box;
+      gap: 15px 61px;
+    }
+    
+    
+  }
+  @media screen and (max-width: 1425px) {
+    .mainContainer {
+      padding-bottom: 23px;
+      box-sizing: border-box;
+    }
+   
+  }
+  @media screen and (max-width: 1200px) {
+    .mainContainer{
+      padding-left: 38px;
+      padding-right: 38px;
+      box-sizing: border-box;
+    }
+    
+   
+  }

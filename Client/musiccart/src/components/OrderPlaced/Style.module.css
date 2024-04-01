@@ -1,0 +1,158 @@
+.frameChild {
+    width: 1004px;
+    height: 649px;
+    position: relative;
+    border-radius: 11px;
+    background-color: var(--color-white);
+    box-shadow: 14px 16px 23px 2px rgba(0, 0, 0, 0.11);
+    border: 3px solid #e2e2e2;
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .tropyIcon {
+    height: 176px;
+    width: 176px;
+    position: relative;
+    object-fit: cover;
+    z-index: 1;
+  }
+  .tropy {
+    width: 751px;
+    height: 176px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 1px;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .title {
+    position: relative;
+    font-weight: 600;
+    z-index: 1;
+  }
+  .successMessage {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px 0 21px;
+  }
+  .para{
+    position: relative;
+    font-size: 28px;
+    line-height: 33.6px;
+    font-weight: 500;
+    color: #969696;
+    white-space: pre-wrap;
+    z-index: 1;
+  }
+  .message{
+    width: 751px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 18px;
+    box-sizing: border-box;
+    gap: 14px;
+    max-width: 100%;
+  }
+  .frameItem {
+    height: 66px;
+    width: 547px;
+    position: relative;
+    border-radius: 14px;
+    background-color: #2e0052;
+    display: none;
+    max-width: 100%;
+  }
+  .goBackTo {
+    position: relative;
+    font-size: 27px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: left;
+    z-index: 2;
+  }
+  .buttonWrapper,
+  .homebutton,
+  .mainContentChild {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .homebutton {
+    cursor: pointer;
+    border: 0;
+    padding: 17px 20px;
+    background-color: #2e0052;
+    width: 547px;
+    border-radius: 14px;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .homebutton:hover {
+    background-color: #613385;
+  }
+  .buttonWrapper,
+  .mainContentChild {
+    width: 751px;
+  }
+  .mainContentChild {
+    width: 1004px;
+    border-radius: 11px;
+    background-color: var(--color-white);
+    box-shadow: 14px 16px 23px 2px rgba(0, 0, 0, 0.11);
+    border: 3px solid #e2e2e2;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 104px 21px 106px 20px;
+    gap: 45px;
+  }
+  mainContent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    max-width: 100%;
+    text-align: left;
+    font-size: 36px;
+    color: var(--color-black);
+    font-family: var(--font-roboto);
+  }
+  @media screen and (max-width: 900px) {
+    .title {
+      font-size: 29px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .mainContentChild {
+      padding-top: 68px;
+      padding-bottom: 69px;
+      box-sizing: border-box;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .goBackTo,
+    .title,
+    .para{
+      font-size: 22px;
+    }
+    .mainContentChild {
+      gap: 22px 45px;
+    }
+  }
+
+
+
+

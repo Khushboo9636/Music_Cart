@@ -1,0 +1,367 @@
+.main {
+    width: 651px;
+    gap:57px;
+    text-align: left;
+    font-size: 44.1px;
+    color:#2e0052;
+    font-family: var(--font-roboto);
+  }
+.logo {
+    width: 629px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px 7px;
+  }
+.logoimage {
+    align-self: stretch;
+    flex-direction: row;
+    gap: 8px;
+  }
+.image4Icon {
+    height: 63px;
+    width: 63px;
+    position: relative;
+    object-fit: cover;
+  }
+  .musicart {
+    position: relative;
+    font-weight: 600;
+  }
+  .logoimage,
+  .musicartWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .musicartWrapper {
+    flex-direction: column;
+    padding: 6px 0 0;
+  }
+ 
+  .formInputChild,
+  .logo{
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+ 
+  .formInputChild {
+    width: 651px;
+    height: 555px;
+    position: relative;
+    border-radius: 23.2px;
+    background-color: var(--color-white);
+    border: 3px solid #e6e6e6;
+    display: none;
+  }
+  .enterYourEmail,
+  .signIn {
+    position: relative;
+    font-size:49.2px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    z-index: 1;
+  }
+  .enterYourEmail {
+    font-size:22px;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .input1{
+    border: 2px solid #b6b6b6;
+    outline: 0;
+    background-color: var(--color-white);
+    align-self: stretch;
+    height: 57px;
+    position: relative;
+    border-radius: 8px;
+    box-sizing: border-box;
+    min-width: 250px;
+    z-index: 1;
+  }
+  .formValues1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14px;
+    max-width: 100%;
+  }
+  .input2,
+  .password {
+    position: relative;
+    z-index: 1;
+  }
+  .password {
+    font-size: 22px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    min-width: 98px;
+  }
+  .input2 {
+    border: 2px solid #b6b6b6;
+    outline: 0;
+    background-color: var(--color-white);
+    align-self: stretch;
+    height: 57px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    min-width: 250px;
+  }
+  .enterCredentials,
+  .formValues2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-sm);
+  }
+  .enterCredentials {
+    padding: 0 0 8px;
+    box-sizing: border-box;
+    gap: var(--gap-3xl);
+    max-width: 100%;
+  }
+  .continueButtonChild {
+    height: 66px;
+    width: 547px;
+    position: relative;
+    border-radius: 8px;
+    background-color: #2e0052;;
+    display: none;
+    max-width: 100%;
+  }
+  .continue {
+    position: relative;
+    font-size: 27px;
+    font-weight: 500;
+    font-family: var(--font-roboto);
+    color: var(--color-white);
+    text-align: left;
+    display: inline-block;
+    min-width: 109px;
+    z-index: 2;
+  }
+  .continueButton,
+  .privacyPolicy {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .continueButton {
+    cursor: pointer;
+    border: 0;
+    padding: 17px 209px;
+    background-color: #2e0052;
+    flex: 1;
+    border-radius: 8px;
+    justify-content: center;
+    z-index: 1;
+  }
+  .continueButton:hover {
+    background-color: #613385;
+  }
+  .privacyPolicy {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0 8px;
+  }
+  .byContinuingYou {
+    width: 531px;
+    position: relative;
+    font-size: 17.8px;
+    line-height: 26px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: left;
+    display: inline-block;
+    max-width: 100%;
+    z-index: 1;
+  }
+  .siginform,
+  .line1Child {
+    align-self: stretch;
+    box-sizing: border-box;
+  }
+  .siginform{
+    margin: 0;
+    border-radius: 23.2px;
+    background-color: var(--color-white);
+    border: 3px solid #e6e6e6;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 40px 47px 41px 51px;
+    gap:22px;
+    max-width: 100%;
+  }
+  .line1Child {
+    height: 2px;
+    position: relative;
+    border-top: 2px solid #bdbdbd;
+  }
+  .line1 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 13px 0 0;
+    box-sizing: border-box;
+    min-width: 136px;
+  }
+  .newToMusicart {
+    position: relative;
+    line-height: 26px;
+  }
+  .line2Child{
+    align-self: stretch;
+    height: 2px;
+    position: relative;
+    border-top: 2px solid #bdbdbd;
+    box-sizing: border-box;
+  }
+  .line2,
+  .linesMessage{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .line2 {
+    flex: 1;
+    flex-direction: column;
+    padding: 13px 0 0;
+    box-sizing: border-box;
+    min-width: 136px;
+  }
+  .linesMessage{
+    align-self: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 37.5px;
+  }
+  .createAccountbtnChild {
+    height: 66px;
+    width: 651px;
+    position: relative;
+    border-radius: 10px;
+    background-color: var(--color-white);
+    border: 2px solid #bdbdbd;
+    box-sizing: border-box;
+    display: none;
+    max-width: 100%;
+  }
+  .createYourMusicart {
+    width: 302px;
+    position: relative;
+    font-size: 23px;
+    line-height: 26px;
+    font-family: var(--font-roboto);
+    color: var(--color-black);
+    text-align: center;
+    display: inline-block;
+    z-index: 1;
+  }
+  .createAccountbtn {
+    cursor: pointer;
+    border: 2px solid #bdbdbd;
+    padding: 20px 164px;
+    background-color: var(--color-white);
+    align-self: stretch;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .createAccountbtn:hover {
+    background-color: #d9d9d9;;
+    border: 2px solid #8a8a8a;;
+    box-sizing: border-box;
+  }
+  .main,
+  .newUserLabel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .newUserLabel {
+    align-self: stretch;
+    gap: var(--gap-24xl);
+    font-size: 20px;
+    color: var(--color-black);
+  }
+  
+  @media screen and (max-width: 900px) {
+    .musicart {
+      font-size: 35px;
+    }
+    .signIn {
+      font-size: 39px;
+    }
+  }
+  @media screen and (max-width: 675px) {
+    .siginform{
+      padding: 6px 23px 27px 25px;
+      box-sizing: border-box;
+    }
+    .linesMessage {
+      gap: 19px;
+    }
+    .newUserLabel {
+      gap: 21px 43px;
+    }
+    .main {
+      gap: 28px 57px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .musicart {
+      font-size: 26px;
+    }
+    .signIn {
+      font-size: 30px;
+    }
+    .enterYourEmail,
+    .password {
+      font-size: 18px;
+    }
+    .continue {
+      font-size: 22px;
+    }
+    .continueButton {
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+    .newToMusicart {
+      font-size: 16px;
+      line-height: 21px;
+    }
+    .createYourMusicart {
+      font-size: 18px;
+      line-height: 21px;
+    }
+    .createAccountLabel {
+      padding-left: 20px;
+      padding-right: 20px;
+      box-sizing: border-box;
+    }
+  }
+ 
