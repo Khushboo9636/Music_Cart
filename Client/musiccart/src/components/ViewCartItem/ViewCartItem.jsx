@@ -25,7 +25,7 @@ function ViewCartItem() {
         const fetchCart = async () => {
             try {
               const token = localStorage.getItem('token');
-                const response = await fetch('http://localhost:4000/api/product/cart', {
+                const response = await fetch('https://music-cart-iwee.onrender.com/api/product/cart', {
                     method: 'GET',
                     headers: {
                       'Content-Type': 'application/json',

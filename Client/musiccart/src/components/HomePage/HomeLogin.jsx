@@ -41,7 +41,7 @@ function HomeLogin() {
 
   const fetchData = async () => {
     try {
-      const response = await fetch('http://localhost:4000/api/product/getallItems'); 
+      const response = await fetch('https://music-cart-iwee.onrender.com/api/product/getallItems'); 
       if (!response.ok) {
         throw new Error('Failed to fetch data');
       }

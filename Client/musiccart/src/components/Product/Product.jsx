@@ -55,7 +55,7 @@ function Product() {
     // Fetch product data from backend when the component mounts
     const fetchProduct = async () => {
       try {
-        const response = await fetch(`http://localhost:4000/api/product/item/${productId}`); // Update the URL with your backend endpoint
+        const response = await fetch(`https://music-cart-iwee.onrender.com/api/product/item/${productId}`); // Update the URL with your backend endpoint
         if (!response.ok) {
           throw new Error('Failed to fetch product');
         }
