@@ -1,7 +1,9 @@
 import React from 'react'
 import phone from '../../../assets/phone.png';
 import styles from './Style.module.css'
+import {  useNavigate } from 'react-router-dom';
 function Navbar() {
+  const navigate = useNavigate()
   return (
     <header className={styles.mainContent}>
     <div className={styles.leftSide} />
@@ -29,12 +31,12 @@ function Navbar() {
     </div>
     <div className={styles.rightContainer}>
       <div className={styles.loginParent}>
-        <h3 className={styles.login}>Login</h3>
+        <h3 className={styles.login} onClick={()=> navigate('/login')}>Login</h3>
         <div className={styles.lineWrapper}>
           <div className={styles.line} />
         </div>
         <div className={styles.signupWrapper}>
-          <h3 className={styles.signup}>Signup</h3>
+          <h3 className={styles.signup} onClick={()=> navigate('/signup')}>Signup</h3>
         </div>
       </div>
     </div>

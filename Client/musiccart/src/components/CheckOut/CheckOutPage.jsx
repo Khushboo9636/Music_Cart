@@ -53,10 +53,11 @@ function CheckOutPage() {
                </div>
             </div>
             
-            <div className={styles.checkoutWrapper}>
+            
+          </div>
+          <div className={styles.checkoutWrapper}>
               <div className={styles.checkout}>Checkout</div>
             </div>
-          </div>
           <div className={styles.frameParent1}>
             <div className={styles.frameParent2}>
               <div className={styles.deliveryAddressParent}>

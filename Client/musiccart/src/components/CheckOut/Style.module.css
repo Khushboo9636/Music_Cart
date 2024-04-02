@@ -22,6 +22,8 @@
 .musicart {
   position: relative;
   font-weight: 600;
+  font-size: 22px;
+  padding-top: 16px;
 }
 .musicartWrapper {
   display: flex;
@@ -284,12 +286,12 @@ justify-content: flex-start;
   .checkoutWrapper {
     align-self: stretch;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: center;
     font-size: 39.8px;
     color: var(--color-black);
   }
   .frameGroup {
-    width: 854px;
+    width:100%;
     flex-direction: column;
     justify-content: flex-start;
     gap: 73.59999999999991px;
