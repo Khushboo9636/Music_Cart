@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'; //
 function Card({ title, price, colorOrType, image,productId ,product, updateCartCount}) {
   const [isAddedToCart, setIsAddedToCart] = useState(false);
 
-   const addToCart = async (productId, ) => {
+   const addToCart = async (productId ) => {
     try {
       const token = localStorage.getItem('token');
       const userId = localStorage.getItem('userId');
